@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "expressions": [
+    {
+      "path": "README.md",
+      "index": 6,
+      "source_sha256": "eeca8c337b34450b4bed09f92a74ac0705a2efc4091a19e805088a8850003b31",
+      "required_text": [
+        "Θ",
+        "max",
+        "D",
+        "ε"
+      ]
+    },
+    {
+      "path": "science/calibration.md",
+      "index": 30,
+      "source_sha256": "33b86b0e328582bc33f0fb259377efabca4fb2ebef01635339af80d706a267b1",
+      "required_text": [
+        "S",
+        "u",
+        "C",
+        "B",
+        "log",
+        "δ"
+      ]
+    },
+    {
+      "path": "science/context-cost.md",
+      "index": 28,
+      "source_sha256": "702b5dc1e43bdf301a9c5b2e44ab5da1ec9808a9cff3f70d410a16c08150d5ca",
+      "required_text": [
+        "B",
+        "Θ",
+        "max",
+        "D",
+        "ε"
+      ]
+    },
+    {
+      "path": "learning/WORKED_EXAMPLE.md",
+      "index": 30,
+      "source_sha256": "c6e23d9417799f6b3a71ee87555c12b9d602a5c8ef736ede4523fd6b71b0c163",
+      "required_text": [
+        "S",
+        "C",
+        "log",
+        "δ",
+        "≤"
+      ]
+    }
+  ]
+}
