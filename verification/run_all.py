@@ -2,6 +2,8 @@ from itertools import combinations, product
 
 import numpy as np
 
+from check_source_only_parity import main as check_source_only_parity
+
 
 def random_povm(dimension, rng):
     matrices = rng.normal(size=(dimension, dimension, dimension))
@@ -115,6 +117,7 @@ def main():
     check_even_masks()
     check_context_decoder()
     check_product_axes()
+    check_source_only_parity()
 
 
 if __name__ == '__main__':

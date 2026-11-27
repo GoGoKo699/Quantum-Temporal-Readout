@@ -13,8 +13,9 @@
 - [Detector model](science/model.md): causal detector, joint POVM, Pauli twirling, pilot-conditioned contrast and strict temporal hierarchy.
 - [Calibration](science/calibration.md): history-conditioned martingale certificate and simultaneous Pauli acquisition.
 - [Context cost](science/context-cost.md): collision-based reference decoder and matching minimax bound. The stationary uniform-context submodel has one unknown sign per context.
+- [Source-only temporal parity](science/source-only-parity.md): two scheduled destructive calls, joint source-only preparation, a sharp copy law and the sign-identifiability separation.
 - [Physical model](science/physical-model.md): shared phase drift, finite delay and control accuracy.
 - [Related work](references/RELATED_WORK.md): inherited twirling, calibration and detector access models.
 - [Verification](verification/README.md): checks, commands and boundaries.
 
-All detector calls are charged. Detector-side memory may be quantum. The experimenter uses fresh copies, trusted product controls and known pilot probes. The exact hierarchy witness itself uses classical detector memory.
+All detector calls are charged. Detector-side memory may be quantum. The reference protocol uses fresh source copies, trusted product controls and known pilot probes. The source-only protocol uses a trusted joint circuit and two scheduled outputs of that circuit. The exact hierarchy witness itself uses classical detector memory.

@@ -2,7 +2,7 @@
 
 **Can a destructive detector recover a Pauli expectation when every individual reading is independent of its input?** Yes, if a known reference sent through the same detector reveals the error on the source probe. For example, a shared fair polarity makes both individual readings fair. Multiplying the two corrected signs cancels the polarity and recovers the ideal source sign.
 
-The protocol uses trusted product rotations, private local Pauli masks and fresh reference probes. The detector may retain arbitrary classical or quantum memory and drift between blocks. Randomly interleaved all-reference blocks certify a Pauli expectation from the measured temporal contrast.
+The reference protocol uses trusted product rotations, private local Pauli masks and fresh reference probes. The detector may retain arbitrary classical or quantum memory and drift between blocks. Randomly interleaved all-reference blocks certify a Pauli expectation from the measured temporal contrast.
 
 | Result | Scientific account |
 |---|---|
@@ -18,6 +18,18 @@ For one target at effective block contrast at least $`\kappa>0`$, additive accur
 ```
 
 blocks. A block of length $`L`$ costs $`L`$ detector calls, even when its pilot record fails to match the reference dictionary. The source is fixed across the run. The digital-only interface uses trusted controls and keeps the current arm, basis setting and masks private from the detector. A low or cancelling contrast gives a broad confidence set. An analogue phase-reference receiver changes the access model.
+
+## Source-only temporal parity
+
+The [sister result with Quantum Reference-Free Readout](https://github.com/GoGoKo699/Quantum-Reference-Free-Readout/blob/main/science/temporal-parity.md) uses only fresh copies of the unknown qubit. A trusted pre-block circuit prepares two outputs for separate scheduled detector calls and encodes two different moments in the same corrected parity. The second output may need to remain coherent until its call.
+
+With at most $`K\ge 2`$ source copies per block and a fixed positive floor on the magnitude of the average predictable parity contrast in each acquisition phase, the optimal copy cost at fixed confidence is
+
+```math
+\Theta\!\left(\max\left\{\epsilon^{-2},\frac{\epsilon^{-4}}{K}\right\}\right).
+```
+
+The [source-only proof](science/source-only-parity.md) includes a detector on which both reports are individually fair. Separate single-copy rotations leave the sign of the expectation unidentifiable for that detector. A joint CNOT makes the sign identifiable at width two. Both calls count in every block.
 
 ## Read or reproduce
 
