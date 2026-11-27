@@ -13,6 +13,7 @@ python3 verification/run_all.py
 | `Even masks` | For lengths 2 through 6, every proper subset of the errors is exactly uniform while the full corrected parity gives the signal bit. |
 | `Decoder` | The small-context hidden-sign family has zero marginal contrast and exact decoding when a reference context has been seen. Enumeration checks the expected repeated-context count used in the converse. |
 | `Product-basis converse` | The product-axis overlap squares sum to one, and the hard detector's reverse divergence agrees with the Bernoulli formula. |
+| `Full masked record`, `CNOT separation`, `Compressed linear and quadratic parity`, `Conditional interleaving` | Exact finite checks for the two-report likelihood, width-two sign separation, compressed moment encoding, and conditional moment identities under drift. Run `python3 verification/check_source_only_parity.py` for these checks alone. |
 
 The suite uses fixed random seeds where sampling a matrix or an axis. The guarantees for arbitrary dimensions, histories and block budgets are proved in the [scientific account](../science/README.md).
 

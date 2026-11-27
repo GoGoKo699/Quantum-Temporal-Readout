@@ -374,6 +374,6 @@ The map applies to any reader. Use the [Watrous bridge](WATROUS_BRIDGE.md) for t
 
 **Prerequisites.** [M17](#m17-information-first-appears-at-a-chosen-block-length), [M21](#m21-coverage-and-usable-contrast), [M22](#m22-the-trusted-input-boundary), [M23](#m23-several-pauli-expectations), [M26](#m26-two-regimes-for-the-constructive-budget), [M28](#m28-the-matching-lower-bound), [M29](#m29-a-physical-source-of-temporal-contrast).
 
-**Conceptual connection.** A higher-order record can make a source expectation measurable. The resource account identifies when exploiting that record requires inexpensive matched pilots or many paid calibration encounters.
+**Conceptual connection.** A higher-order record can make a source expectation measurable. The resource account identifies when exploiting that record requires matched pilots or many paid calibration encounters. For the source-only interface, trace how the pre-block circuit supplies two distinct moments and why keeping the second output until its call changes the access model.
 
-**Sources.** [Scientific reading route](../science/README.md).
+**Sources.** [Scientific reading route](../science/README.md) and [source-only temporal parity](../science/source-only-parity.md).
